@@ -1,0 +1,19 @@
+listen_interface: 0.0.0.0
+listen_port: 9090
+
+targets:
+  - http://localhost:8080
+
+rate_limit_avg_minute: 500
+rate_limit_burst_second: 50
+
+idp_metadata_url: https://www.testshib.org/metadata/testshib-providers.xml
+service_root_url: http://demo-saml-app.example.com/shibboleth
+cert: /certs/myservice.cert
+key: /certs/myservice.key
+
+cookie_max_age: 4h
+
+# panic, fatal, error, warn, info, debug
+# info and debug log cookie information! this can lead to session hijacking!
+log_level: info

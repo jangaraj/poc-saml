@@ -1,0 +1,23 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2017-11-18T14:32:33.798Z" entityID="http://demo-saml-app.example.com:8000/saml/metadata">
+  <SPSSODescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2019-01-01T00:00:00Z" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="false" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDEzCCAfugAwIBAgIJALLjC8HicAWWMA0GCSqGSIb3DQEBCwUAMCAxHjAcBgNVBAMMFW15c2VydmljZS5leGFtcGxlLmNvbTAeFw0xNzExMTQyMDQ1MjdaFw0xODExMTQyMDQ1MjdaMCAxHjAcBgNVBAMMFW15c2VydmljZS5leGFtcGxlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKzNuMh+gyZhXqrA34ik5XzEbTEqHgi2DLprB+ZkugupBZR9KquB/jzV+rTZGPSn8iBRisG3ZOK8xz8G57pANYI9oevppCm/yYFtXhRiYWR5ft/AyuyGh3g/vvwbJpINztYdWFy7j9gtGUGc9rZQlZBJuPpdgpCU6qjEKo0X1mkD729+G9LQdvNkO8+oS1BNJYW8KLI8jEFvUYsEZz530AKF0nzCcB6XrfgFIa25pzKWLgetPaBPm+NyZOoZ8Q2sIw9DVykZLOzly/M7GvdYkDyLYqB+XlS+N8Cr03SR5sQ1FPhslVgUqDatFEsup3+79cVi+v73EuEBPpVVskyJCosCAwEAAaNQME4wHQYDVR0OBBYEFBLQeS2c3sVi7jBojdVZ5hJnnZ//MB8GA1UdIwQYMBaAFBLQeS2c3sVi7jBojdVZ5hJnnZ//MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+zSJQcCIJ+1WTTjysta0IU5wB5yMNy2ynctZneUvV1EXlQTjpSzJ0AAbQYapIOt+XWwTETWbmQvm83/lR7eU5gqZNb4/aTpbs815xr9azN6Y1XJvaDs8qH6RV85Ohdwzck6DkqVicTFY32nhTJaE5Fvh+h+hKv8HwBJmZCneqVlJmlNs/UkwIhoz9AYHhqMKp97/mM5xZwb4btt1Qn0sPsOx0UkNgDTSPq4dcaRqJUl7gT62m0ku/eChSVrVJNlGg7ljQ+IbfN8qLUTWhdJA3cUtd7RXYiuvUBe47P9XYH5z28KxULOuPnAX6ZznNxIzkD8T+KDRQrULM63iiYq80=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data>
+          <X509Certificate>MIIDEzCCAfugAwIBAgIJALLjC8HicAWWMA0GCSqGSIb3DQEBCwUAMCAxHjAcBgNVBAMMFW15c2VydmljZS5leGFtcGxlLmNvbTAeFw0xNzExMTQyMDQ1MjdaFw0xODExMTQyMDQ1MjdaMCAxHjAcBgNVBAMMFW15c2VydmljZS5leGFtcGxlLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKzNuMh+gyZhXqrA34ik5XzEbTEqHgi2DLprB+ZkugupBZR9KquB/jzV+rTZGPSn8iBRisG3ZOK8xz8G57pANYI9oevppCm/yYFtXhRiYWR5ft/AyuyGh3g/vvwbJpINztYdWFy7j9gtGUGc9rZQlZBJuPpdgpCU6qjEKo0X1mkD729+G9LQdvNkO8+oS1BNJYW8KLI8jEFvUYsEZz530AKF0nzCcB6XrfgFIa25pzKWLgetPaBPm+NyZOoZ8Q2sIw9DVykZLOzly/M7GvdYkDyLYqB+XlS+N8Cr03SR5sQ1FPhslVgUqDatFEsup3+79cVi+v73EuEBPpVVskyJCosCAwEAAaNQME4wHQYDVR0OBBYEFBLQeS2c3sVi7jBojdVZ5hJnnZ//MB8GA1UdIwQYMBaAFBLQeS2c3sVi7jBojdVZ5hJnnZ//MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAC+zSJQcCIJ+1WTTjysta0IU5wB5yMNy2ynctZneUvV1EXlQTjpSzJ0AAbQYapIOt+XWwTETWbmQvm83/lR7eU5gqZNb4/aTpbs815xr9azN6Y1XJvaDs8qH6RV85Ohdwzck6DkqVicTFY32nhTJaE5Fvh+h+hKv8HwBJmZCneqVlJmlNs/UkwIhoz9AYHhqMKp97/mM5xZwb4btt1Qn0sPsOx0UkNgDTSPq4dcaRqJUl7gT62m0ku/eChSVrVJNlGg7ljQ+IbfN8qLUTWhdJA3cUtd7RXYiuvUBe47P9XYH5z28KxULOuPnAX6ZznNxIzkD8T+KDRQrULM63iiYq80=</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"></EncryptionMethod>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"></EncryptionMethod>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"></EncryptionMethod>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"></EncryptionMethod>
+    </KeyDescriptor>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://demo-saml-app.example.com:8000/saml/acs" index="1"></AssertionConsumerService>
+  </SPSSODescriptor>
+</EntityDescriptor> 
